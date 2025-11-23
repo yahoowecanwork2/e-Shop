@@ -8,7 +8,7 @@ const Home = () => {
         <div className="w-full flex flex-col lg:flex-row items-center gap-10 px-4 md:px-10 lg:px-20 py-10">
           {/* 📌 Categories Section */}
           <div className="w-full lg:w-[30%] bg-white shadow-md rounded-lg p-5">
-            <h2 className="text-xl font-semibold mb-4 text-center lg:text-left">
+            <h2 className="text-xl font-semibold mb-4 bg-red-700 text-white rounded-md px-2 text-center lg:text-left">
               SHOP BY CATEGORIES
             </h2>
 
@@ -26,7 +26,7 @@ const Home = () => {
 
           <div className="w-full lg:w-[70%] flex flex-col md:flex-row items-center justify-between bg-gray-100 rounded-lg px-5 py-8 gap-6">
             {/* Left Text Content */}
-            <div className="text-center md:text-left flex flex-col gap-3 max-w-[500px]">
+            <div className="text-center md:text-left flex flex-col gap-3 max-w-[500px]  transition-all duration-300 ease-in-out">
               <p className="text-sm md:text-base text-gray-600 font-medium">
                 Update your wardrobe with the latest fashion
               </p>
@@ -37,17 +37,17 @@ const Home = () => {
                 Millions+ Products
               </p>
 
-              <button className="mt-3 bg-black text-white px-5 py-2 rounded-md text-sm md:text-base hover:bg-gray-900 transition w-fit mx-auto md:mx-0">
+              <button className="mt-3 bg-black text-white px-5 py-2 rounded-md text-sm md:text-base hover:bg-gray-700 w-fit mx-auto md:mx-0 transition-all duration-300 ease-in-out  hover:scale-105">
                 Shop Now
               </button>
             </div>
 
             {/* Banner Image */}
-            <div className="w-full md:w-[50%] flex justify-center">
+            <div className="w-full md:w-[50%] flex justify-center transition-all duration-300 hover:scale-105 hover:opacity-80 hover:-translate-y-2">
               <img
                 src={Hero}
                 alt="hero"
-                className="w-[90%] sm:w-[70%] md:w-full max-w-[450px] rounded-lg object-cover shadow-lg"
+                className="w-[90%] sm:w-[70%] md:w-full max-w-[450px] rounded-lg object-cover shadow-lg transition-all duration-300 hover:scale-105 hover:opacity-80 hover:-translate-y-2"
               />
             </div>
           </div>
