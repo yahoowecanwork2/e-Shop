@@ -1,6 +1,7 @@
 import React from "react";
 import { Categories } from "../assets/DummyData/DummyData";
 import Hero from "../assets/image/blackbanner.jpg";
+import InfoSection from "./InfoSection";
 const Home = () => {
   return (
     <div>
@@ -53,6 +54,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <InfoSection />
     </div>
   );
 };
