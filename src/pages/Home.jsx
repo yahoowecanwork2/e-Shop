@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Categories } from "../assets/DummyData/DummyData";
 import Hero from "../assets/image/blackbanner.jpg";
 import InfoSection from "./InfoSection";
 import CategorySection from "./CategorySection";
+import { useDispatch, useSelector } from "react-redux";
+import { setproduct } from "../redux/ProductSlice";
+import { getTopProducts } from "../assets/API/index";
+
 const Home = () => {
+  const dispatch = useDispatch();
+  const products = useSelector((state) => state.product.products);
+  useEffect(() => {
+    getTopProducts()
+      .then((data) => {
+        dispatch(setproduct(data));
+      })
+      .catch((err) => console.log(err));
+  }, []);
   return (
     <div>
       <div>
@@ -57,6 +70,32 @@ const Home = () => {
       </div>
       <InfoSection />
       <CategorySection />
+      <div className="container mx-auto px-4 py-10">
+        <div className="flex justify-center items-center w-full">
+          <h3 className="text-2xl font-bold mb-6">Top Products</h3>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          {products?.slice(0, 5).map((product) => (
+            <div
+              key={product.id}
+              className="group bg-white rounded-xl shadow-md p-4 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer"
+            >
+              <div className="w-full h-40 overflow-hidden rounded-lg">
+                <img
+                  src={product.thumbnail}
+                  alt={product.title}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
+                />
+              </div>
+
+              <h3 className="mt-3 text-lg font-semibold text-gray-800 truncate">
+                {product.title}
+              </h3>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
