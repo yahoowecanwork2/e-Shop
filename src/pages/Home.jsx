@@ -6,6 +6,7 @@ import CategorySection from "./CategorySection";
 import { useDispatch, useSelector } from "react-redux";
 import { setproduct } from "../redux/ProductSlice";
 import { getTopProducts } from "../assets/API/index";
+import { FaStar } from "react-icons/fa";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -83,15 +84,28 @@ const Home = () => {
             >
               <div className="w-full h-40 overflow-hidden rounded-lg">
                 <img
-                  src={product.thumbnail}
-                  alt={product.title}
+                  src={product?.thumbnail}
+                  alt={product?.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                 />
               </div>
 
               <h3 className="mt-3 text-lg font-semibold text-gray-800 truncate">
-                {product.title}
+                {product?.title}
               </h3>
+              <p>${product?.price}</p>
+              <div className="flex flex-row justify-between">
+                <div className="flex flex-row gap-3">
+                  <FaStar className="text-amber-300" />
+                  <FaStar className="text-amber-300" />
+                  <FaStar className="text-amber-300" />
+                  <FaStar className="text-amber-300" />
+                </div>
+                <div className=" botton-4 right-2 flex items-center justify-center w-8 h-8 bg-red-500 text-white group  text-sm rounded-3xl hover:w-32 hover:bg-red-700 transition-all shadow-lg">
+                  <span className="group-hover:hidden">+</span>
+                  <span className="hidden group-hover:block">add to cart</span>
+                </div>
+              </div>
             </div>
           ))}
         </div>
