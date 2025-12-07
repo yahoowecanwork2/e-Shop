@@ -1,0 +1,624 @@
+{
+  "products": [
+    {
+      "id": 21,
+      "name": "Women Floral Summer Dress",
+      "category": "women",
+      "price": 1199,
+      "mrp": 1899,
+      "discount": "37%",
+      "brand": "FloraStyle",
+      "images": ["https://images.unsplash.com/photo-1520975922071-a4e941d04d9e"]
+    },
+    {
+      "id": 22,
+      "name": "Women Cotton Kurti",
+      "category": "women",
+      "price": 699,
+      "mrp": 1299,
+      "discount": "46%",
+      "brand": "EthnicVibe",
+      "images": ["https://images.unsplash.com/photo-1562157873-818bc0726f68"]
+    },
+    {
+      "id": 23,
+      "name": "Women Party Wear Gown",
+      "category": "women",
+      "price": 1999,
+      "mrp": 3299,
+      "discount": "39%",
+      "brand": "GlowFashion",
+      "images": ["https://images.unsplash.com/photo-1519741497674-611481863552"]
+    },
+    {
+      "id": 24,
+      "name": "Women Stylish Sandals",
+      "category": "women",
+      "price": 899,
+      "mrp": 1599,
+      "discount": "44%",
+      "brand": "ComfortStep",
+      "images": ["https://images.unsplash.com/photo-1584917865442-de89df76afd3"]
+    },
+    {
+      "id": 25,
+      "name": "Women Straight Fit Jeans",
+      "category": "women",
+      "price": 1299,
+      "mrp": 1999,
+      "discount": "35%",
+      "brand": "DenimGirl",
+      "images": ["https://images.unsplash.com/photo-1542060749-10c28b62716a"]
+    },
+    {
+      "id": 26,
+      "name": "Women Crop Top",
+      "category": "women",
+      "price": 499,
+      "mrp": 899,
+      "discount": "45%",
+      "brand": "TrendyWear",
+      "images": ["https://images.unsplash.com/photo-1520975922071-a4e941d04d9e"]
+    },
+    {
+      "id": 27,
+      "name": "Women Fashion Handbag",
+      "category": "women",
+      "price": 1599,
+      "mrp": 2499,
+      "discount": "36%",
+      "brand": "BagQueen",
+      "images": ["https://images.unsplash.com/photo-1542038784456-1ea8e935640e"]
+    },
+    {
+      "id": 28,
+      "name": "Women Winter Jacket",
+      "category": "women",
+      "price": 1799,
+      "mrp": 2899,
+      "discount": "38%",
+      "brand": "CozyWear",
+      "images": ["https://images.unsplash.com/photo-1548345680-f5475ea5df84"]
+    },
+    {
+      "id": 29,
+      "name": "Women Stylish Heels",
+      "category": "women",
+      "price": 1299,
+      "mrp": 1899,
+      "discount": "31%",
+      "brand": "HeelTrend",
+      "images": ["https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77"]
+    },
+    {
+      "id": 30,
+      "name": "Women Ethnic Saree",
+      "category": "women",
+      "price": 1499,
+      "mrp": 2499,
+      "discount": "40%",
+      "brand": "SareeHouse",
+      "images": ["https://images.unsplash.com/photo-1602810317724-0f0404a4e2c4"]
+    },
+    {
+      "id": 31,
+      "name": "Women Ankle Boots",
+      "category": "women",
+      "price": 1699,
+      "mrp": 2499,
+      "discount": "32%",
+      "brand": "BootsQueen",
+      "images": ["https://images.unsplash.com/photo-1596730838765-bd4d01fc212b"]
+    },
+    {
+      "id": 32,
+      "name": "Women Casual T-shirt",
+      "category": "women",
+      "price": 399,
+      "mrp": 799,
+      "discount": "50%",
+      "brand": "DailyFit",
+      "images": ["https://images.unsplash.com/photo-1520975922071-a4e941d04d9e"]
+    },
+    {
+      "id": 33,
+      "name": "Women Palazzo Pants",
+      "category": "women",
+      "price": 699,
+      "mrp": 1299,
+      "discount": "46%",
+      "brand": "PalazzoHub",
+      "images": ["https://images.unsplash.com/photo-1644937451347-b7e52ed7b031"]
+    },
+    {
+      "id": 34,
+      "name": "Women Cotton Leggings",
+      "category": "women",
+      "price": 299,
+      "mrp": 499,
+      "discount": "40%",
+      "brand": "FitWear",
+      "images": ["https://images.unsplash.com/photo-1599940824399-b87987ceb72a"]
+    },
+    {
+      "id": 35,
+      "name": "Women Stylish Shrug",
+      "category": "women",
+      "price": 699,
+      "mrp": 1299,
+      "discount": "46%",
+      "brand": "StyleUp",
+      "images": ["https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c"]
+    },
+    {
+      "id": 36,
+      "name": "Women Trendy Kurta Set",
+      "category": "women",
+      "price": 1499,
+      "mrp": 2299,
+      "discount": "35%",
+      "brand": "EthnicVibe",
+      "images": ["https://images.unsplash.com/photo-1602810317724-0f0404a4e2c4"]
+    },
+    {
+      "id": 37,
+      "name": "Women Round Sunglasses",
+      "category": "women",
+      "price": 599,
+      "mrp": 999,
+      "discount": "40%",
+      "brand": "EyeLook",
+      "images": ["https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"]
+    },
+    {
+      "id": 38,
+      "name": "Women Jhumka Earrings",
+      "category": "women",
+      "price": 299,
+      "mrp": 699,
+      "discount": "57%",
+      "brand": "EthnicGold",
+      "images": ["https://images.unsplash.com/photo-1617037432204-2b44cc979f07"]
+    },
+    {
+      "id": 39,
+      "name": "Women Party Heels",
+      "category": "women",
+      "price": 1399,
+      "mrp": 1999,
+      "discount": "30%",
+      "brand": "HeelVibe",
+      "images": ["https://images.unsplash.com/photo-1528701800489-20be9ef03bc5"]
+    },
+    {
+      "id": 40,
+      "name": "Women Winter Scarf",
+      "category": "women",
+      "price": 399,
+      "mrp": 799,
+      "discount": "50%",
+      "brand": "WarmTouch",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 41,
+      "name": "Kids Cartoon T-shirt",
+      "category": "child",
+      "price": 299,
+      "mrp": 599,
+      "discount": "50%",
+      "brand": "TinyWear",
+      "images": ["https://images.unsplash.com/photo-1581579188871-45ea61f2a0c8"]
+    },
+    {
+      "id": 42,
+      "name": "Kids Denim Shorts",
+      "category": "child",
+      "price": 399,
+      "mrp": 799,
+      "discount": "50%",
+      "brand": "LittleDenim",
+      "images": ["https://images.unsplash.com/photo-1581579188871-45ea61f2a0c8"]
+    },
+    {
+      "id": 43,
+      "name": "Kids Sneakers",
+      "category": "child",
+      "price": 699,
+      "mrp": 1199,
+      "discount": "41%",
+      "brand": "TinyFeet",
+      "images": ["https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"]
+    },
+    {
+      "id": 44,
+      "name": "Kids Winter Jacket",
+      "category": "child",
+      "price": 899,
+      "mrp": 1499,
+      "discount": "40%",
+      "brand": "WarmKids",
+      "images": ["https://images.unsplash.com/photo-1548345680-f5475ea5df84"]
+    },
+    {
+      "id": 45,
+      "name": "Kids Frock Dress",
+      "category": "child",
+      "price": 499,
+      "mrp": 899,
+      "discount": "44%",
+      "brand": "CuteGirl",
+      "images": ["https://images.unsplash.com/photo-1519741497674-611481863552"]
+    },
+    {
+      "id": 46,
+      "name": "Kids Printed Shirt",
+      "category": "child",
+      "price": 299,
+      "mrp": 699,
+      "discount": "57%",
+      "brand": "MiniWear",
+      "images": ["https://images.unsplash.com/photo-1581579188871-45ea61f2a0c8"]
+    },
+    {
+      "id": 47,
+      "name": "Kids Cotton Shorts",
+      "category": "child",
+      "price": 249,
+      "mrp": 499,
+      "discount": "50%",
+      "brand": "BabyFit",
+      "images": ["https://images.unsplash.com/photo-1593032457862-ae6e5ba69e0b"]
+    },
+    {
+      "id": 48,
+      "name": "Kids Cotton Pajama Set",
+      "category": "child",
+      "price": 599,
+      "mrp": 999,
+      "discount": "40%",
+      "brand": "SleepyKids",
+      "images": ["https://images.unsplash.com/photo-1556906781-9a412961c27a"]
+    },
+    {
+      "id": 49,
+      "name": "Kids School Shoes",
+      "category": "child",
+      "price": 799,
+      "mrp": 1499,
+      "discount": "46%",
+      "brand": "EduStep",
+      "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff"]
+    },
+    {
+      "id": 50,
+      "name": "Kids Hooded Sweatshirt",
+      "category": "child",
+      "price": 499,
+      "mrp": 899,
+      "discount": "44%",
+      "brand": "WarmKiddo",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 51,
+      "name": "Kids Ball Cap",
+      "category": "child",
+      "price": 199,
+      "mrp": 399,
+      "discount": "50%",
+      "brand": "MiniCap",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 52,
+      "name": "Kids Cute Sweater",
+      "category": "child",
+      "price": 599,
+      "mrp": 999,
+      "discount": "40%",
+      "brand": "WarmBaby",
+      "images": ["https://images.unsplash.com/photo-1548345680-f5475ea5df84"]
+    },
+    {
+      "id": 53,
+      "name": "Kids Ethnic Kurta",
+      "category": "child",
+      "price": 499,
+      "mrp": 799,
+      "discount": "38%",
+      "brand": "LittleEthnic",
+      "images": ["https://images.unsplash.com/photo-1602810317724-0f0404a4e2c4"]
+    },
+    {
+      "id": 54,
+      "name": "Kids Cartoon Socks",
+      "category": "child",
+      "price": 149,
+      "mrp": 299,
+      "discount": "50%",
+      "brand": "TinySocks",
+      "images": ["https://images.unsplash.com/photo-1599940824399-b87987ceb72a"]
+    },
+    {
+      "id": 55,
+      "name": "Kids Raincoat",
+      "category": "child",
+      "price": 499,
+      "mrp": 899,
+      "discount": "44%",
+      "brand": "RainyKids",
+      "images": ["https://images.unsplash.com/photo-1602810317724-0f0404a4e2c4"]
+    },
+    {
+      "id": 56,
+      "name": "Kids Running Shoes",
+      "category": "child",
+      "price": 799,
+      "mrp": 1499,
+      "discount": "46%",
+      "brand": "MiniRun",
+      "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff"]
+    },
+    {
+      "id": 57,
+      "name": "Kids Polo T-shirt",
+      "category": "child",
+      "price": 349,
+      "mrp": 699,
+      "discount": "50%",
+      "brand": "KidStyle",
+      "images": ["https://images.unsplash.com/photo-1512436991641-6745cdb1723f"]
+    },
+    {
+      "id": 58,
+      "name": "Kids Summer Dress",
+      "category": "child",
+      "price": 499,
+      "mrp": 899,
+      "discount": "44%",
+      "brand": "CutePrincess",
+      "images": ["https://images.unsplash.com/photo-1519741497674-611481863552"]
+    },
+    {
+      "id": 59,
+      "name": "Kids Track Pants",
+      "category": "child",
+      "price": 349,
+      "mrp": 599,
+      "discount": "41%",
+      "brand": "FitKid",
+      "images": ["https://images.unsplash.com/photo-1584530003470-8282d8d6d1a5"]
+    },
+    {
+      "id": 60,
+      "name": "Kids School Backpack",
+      "category": "child",
+      "price": 699,
+      "mrp": 1199,
+      "discount": "41%",
+      "brand": "SchoolBuddy",
+      "images": ["https://images.unsplash.com/photo-1542038784456-1ea8e935640e"]
+    },
+    {
+      "id": 1,
+      "name": "Men Casual Cotton Shirt",
+      "category": "men",
+      "price": 799,
+      "mrp": 1199,
+      "discount": "30%",
+      "brand": "UrbanVibe",
+      "images": ["https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"]
+    },
+    {
+      "id": 2,
+      "name": "Men Slim Fit Jeans",
+      "category": "men",
+      "price": 1299,
+      "mrp": 1999,
+      "discount": "35%",
+      "brand": "DenimCo",
+      "images": ["https://images.unsplash.com/photo-1542272604-787c3835535d"]
+    },
+    {
+      "id": 3,
+      "name": "Men Printed T-shirt",
+      "category": "men",
+      "price": 499,
+      "mrp": 899,
+      "discount": "44%",
+      "brand": "Roadstar",
+      "images": ["https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"]
+    },
+    {
+      "id": 4,
+      "name": "Men Formal Shirt",
+      "category": "men",
+      "price": 999,
+      "mrp": 1599,
+      "discount": "38%",
+      "brand": "Peter England",
+      "images": ["https://images.unsplash.com/photo-1556906781-9a412961c27a"]
+    },
+    {
+      "id": 5,
+      "name": "Men Leather Jacket",
+      "category": "men",
+      "price": 2499,
+      "mrp": 3999,
+      "discount": "40%",
+      "brand": "RuggedPro",
+      "images": ["https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"]
+    },
+    {
+      "id": 6,
+      "name": "Men Running Shoes",
+      "category": "men",
+      "price": 1799,
+      "mrp": 2499,
+      "discount": "28%",
+      "brand": "RunFast",
+      "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff"]
+    },
+    {
+      "id": 7,
+      "name": "Men Hoodie Sweatshirt",
+      "category": "men",
+      "price": 899,
+      "mrp": 1599,
+      "discount": "43%",
+      "brand": "WinterCore",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 8,
+      "name": "Men Kurta Long",
+      "category": "men",
+      "price": 699,
+      "mrp": 1299,
+      "discount": "46%",
+      "brand": "EthnicMan",
+      "images": ["https://images.unsplash.com/photo-1602810317724-0f0404a4e2c4"]
+    },
+    {
+      "id": 9,
+      "name": "Men Sports Track Pant",
+      "category": "men",
+      "price": 599,
+      "mrp": 999,
+      "discount": "40%",
+      "brand": "FitPro",
+      "images": ["https://images.unsplash.com/photo-1584530003470-8282d8d6d1a5"]
+    },
+    {
+      "id": 10,
+      "name": "Men Checked Shirt",
+      "category": "men",
+      "price": 899,
+      "mrp": 1399,
+      "discount": "35%",
+      "brand": "CheckMate",
+      "images": ["https://images.unsplash.com/photo-1512436991641-6745cdb1723f"]
+    },
+    {
+      "id": 11,
+      "name": "Men Formal Trousers",
+      "category": "men",
+      "price": 1299,
+      "mrp": 1999,
+      "discount": "33%",
+      "brand": "OfficeWear",
+      "images": ["https://images.unsplash.com/photo-1530041539828-114de6693908"]
+    },
+    {
+      "id": 12,
+      "name": "Men Polo T-shirt",
+      "category": "men",
+      "price": 699,
+      "mrp": 1199,
+      "discount": "41%",
+      "brand": "PoloHub",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 13,
+      "name": "Men Sneakers",
+      "category": "men",
+      "price": 1599,
+      "mrp": 2499,
+      "discount": "36%",
+      "brand": "SneakPeak",
+      "images": ["https://images.unsplash.com/photo-1528701800489-20be9ef03bc5"]
+    },
+    {
+      "id": 14,
+      "name": "Men Winter Sweatshirt",
+      "category": "men",
+      "price": 999,
+      "mrp": 1799,
+      "discount": "44%",
+      "brand": "CozyMan",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 15,
+      "name": "Men Cotton Shorts",
+      "category": "men",
+      "price": 499,
+      "mrp": 899,
+      "discount": "45%",
+      "brand": "ComfortFit",
+      "images": ["https://images.unsplash.com/photo-1593032457862-ae6e5ba69e0b"]
+    },
+    {
+      "id": 16,
+      "name": "Men Stylish Blazer",
+      "category": "men",
+      "price": 2299,
+      "mrp": 3499,
+      "discount": "34%",
+      "brand": "UrbanStyle",
+      "images": ["https://images.unsplash.com/photo-1539533113208-f6df8cc8b543"]
+    },
+    {
+      "id": 17,
+      "name": "Men Cotton Kurta",
+      "category": "men",
+      "price": 799,
+      "mrp": 1499,
+      "discount": "46%",
+      "brand": "EthnicWear",
+      "images": ["https://images.unsplash.com/photo-1602810317724-0f0404a4e2c4"]
+    },
+    {
+      "id": 18,
+      "name": "Men Winter Jacket",
+      "category": "men",
+      "price": 1899,
+      "mrp": 2999,
+      "discount": "37%",
+      "brand": "WinterLine",
+      "images": ["https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"]
+    },
+    {
+      "id": 19,
+      "name": "Men Stylish Cap",
+      "category": "men",
+      "price": 299,
+      "mrp": 599,
+      "discount": "50%",
+      "brand": "HeadWear",
+      "images": ["https://images.unsplash.com/photo-1541099649105-f69ad21f3246"]
+    },
+    {
+      "id": 20,
+      "name": "Men Analog Watch",
+      "category": "men",
+      "price": 999,
+      "mrp": 1999,
+      "discount": "50%",
+      "brand": "TimeZone",
+      "images": ["https://images.unsplash.com/photo-1503387762-592deb58ef4e"]
+    }
+  ],
+  "categories": [
+    { "id": "men", "title": "Men" },
+    { "id": "women", "title": "Women" },
+    { "id": "child", "title": "Child" }
+  ],
+  "brands": [
+    { "id": "urbanvibe", "name": "UrbanVibe" },
+    { "id": "luna", "name": "Luna" },
+    { "id": "tinytrendz", "name": "TinyTrendz" },
+    { "id": "runfast", "name": "RunFast" },
+    { "id": "littlechic", "name": "LittleChic" }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "Winter Sale - Up to 50% Off",
+      "image": "/images/banner1.jpg",
+      "category": "women"
+    }
+  ]
+}
