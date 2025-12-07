@@ -1,35 +1,36 @@
-// ProductCard.jsx
 import React from "react";
+import { FaStar } from "react-icons/fa";
 
 const ProductCard = ({ item }) => {
-  const discountAmount = item.discount || "20%";
-
   return (
-    <div className="border rounded-xl shadow-sm p-3 hover:shadow-lg transition cursor-pointer bg-white">
+    <div className="group bg-white rounded-xl shadow-md p-4 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer">
       <img
-        src={item.images?.[0]}
-        alt={item.name}
-        className="h-44 w-full object-cover rounded-lg"
+        src={item?.images[0]}
+        alt={item?.name}
+        className="w-full h-48 object-cover rounded"
       />
 
-      <h2 className="mt-3 font-semibold text-sm">{item.name}</h2>
-      <p className="text-gray-700 text-xs">{item.brand}</p>
+      <h3 className="font-semibold text-lg mt-3">{item?.name}</h3>
 
-      <div className="flex items-center gap-2 mt-2">
-        <p className="font-bold text-base">₹{item.price}</p>
-        <p className="text-gray-500 line-through text-sm">₹{item.mrp}</p>
-        <span className="text-green-600 text-sm font-medium">
-          {discountAmount} OFF
+      <div className="mt-1">
+        <span className="text-xl font-bold">₹{item?.price}</span>
+        <span className="line-through text-gray-500 ml-2">₹{item?.mrp}</span>
+        <span className="text-green-600 font-semibold ml-2">
+          {item?.discount} OFF
         </span>
       </div>
 
-      <div className="flex gap-2 mt-4">
-        <button className="flex-1 bg-blue-600 text-white py-1.5 rounded-lg text-xs">
-          Buy Now
-        </button>
-        <button className="flex-1 border border-blue-600 text-blue-600 py-1.5 rounded-lg text-xs">
-          Add to Cart
-        </button>
+      <div className="flex flex-row justify-between">
+        <div className="flex flex-row gap-3">
+          <FaStar className="text-amber-300" />
+          <FaStar className="text-amber-300" />
+          <FaStar className="text-amber-300" />
+          <FaStar className="text-amber-300" />
+        </div>
+        <div className=" botton-4 right-2 flex items-center justify-center w-8 h-8 bg-red-500 text-white group  text-sm rounded-3xl hover:w-32 hover:bg-red-700 transition-all shadow-lg">
+          <span className="group-hover:hidden">+</span>
+          <span className="hidden group-hover:block">add to cart</span>
+        </div>
       </div>
     </div>
   );
